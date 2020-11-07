@@ -1,3 +1,0 @@
-language = "bash"
-run = "python export.py"
-onBoot = "python -m FreeFlowLearning"
