@@ -8,3 +8,9 @@ def attempt(func, error, level):
         except error as e:
             Error(e, level)
     return inner
+
+
+def string_quotes(string):
+    if type(string) != str:
+        return string
+    return f"'{string}'"
